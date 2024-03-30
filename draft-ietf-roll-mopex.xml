@@ -38,7 +38,7 @@
 <?rfc subcompact="no" ?>
 <!-- keep one blank line between list items -->
 <!-- end of list of popular I-D processing instructions -->
-<rfc category="std" docName="draft-ietf-roll-mopex-latest" ipr="trust200902">
+<rfc category="std" docName="draft-ietf-roll-mopex-08" ipr="trust200902">
     <!-- category values: std, bcp, info, exp, and historic
      ipr values: full3667, noModification3667, noDerivatives3667
      you can add the attributes updates="NNNN" and obsoletes="NNNN"
@@ -440,9 +440,21 @@
 				<ttcol align='center'>Description</ttcol>
 				<ttcol align='center'>Reference</ttcol>
 
-				<c>0 to 6</c>
-				<c>MOP</c>
-				<c>[RFC6550]</c>
+				<c>0</c>
+				<c>RESERVED_NoDownward_v2</c>
+				<c>[this document]</c>
+				<c>1</c>
+				<c>RESERVED_NonStoring_v2</c>
+				<c>[this document]</c>
+				<c>2</c>
+				<c>RESERVED_StoringNoMulticast_v2</c>
+				<c>[this document]</c>
+				<c>3</c>
+				<c>RESERVED_StoringMulticast_v2</c>
+				<c>[this document]</c>
+				<c>4</c>
+				<c>RESERVED_P2P_v2</c>
+				<c>[this document]</c>
 			</texttable>
         </section>
         <section title="Change in RPL Control Option field">
